@@ -1,4 +1,4 @@
-Linux terminal (GitBash) commands.
+﻿Linux terminal (GitBash) commands.
 
 1. Посмотреть где я - pwd
 2. Создать папку - mkdir foldername
@@ -9,7 +9,7 @@ Linux terminal (GitBash) commands.
 7. Создать 3 папки - mkdir dir_1 dir_2 dir_3
 8. Вывести список содержимого папки - ls -l
 9. + Открыть любой txt файл - vim text.txt
-10. + написать туда что-нибудь, любой текст - insert "explore terminal"
+10. + написать туда что-нибудь, любой текст - insert "explore terminal!"
 11. + сохранить и выйти - esc :wq
 12. Выйти из папки на уровень выше - cd ..
 13. переместить любые 2 файла, которые вы создали, в любую другую папку - cd foldername_1/
