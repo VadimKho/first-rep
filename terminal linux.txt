@@ -7,17 +7,14 @@
 5. Зайти в любую папку - cd foldername_1
 6. Создать 5 файлов (3 txt, 2 json) - touch test.txt test_2.txt test_3.txt file.json file_2.json
 7. Создать 3 папки - mkdir dir_1 dir_2 dir_3
-8. Вывести список содержимого папки - ls -l
+8. Вывести список содержимого папки - ls -la
 9. + Открыть любой txt файл - vim text.txt
 10. + написать туда что-нибудь, любой текст - insert "explore terminal!"
 11. + сохранить и выйти - esc :wq
 12. Выйти из папки на уровень выше - cd ..
-13. переместить любые 2 файла, которые вы создали, в любую другую папку - перейти в папку foldername_1,  cd foldername_1
-mv test.txt dir_2/test.txt 
-mv file.json dir_2/file.json  
-14 скопировать любые 2 файла, которые вы создали, в любую другую папку - cp file_2.json dir_3/file_2.json
-cp test_2.txt dir_3/test_2.txt
-15. Найти файл по имени - find -L -name text_3.txt
+13. переместить любые 2 файла, которые вы создали, в любую другую папку -  mv foldername_1/{test.txt,test_2.txt} foldername_1/dir_1
+14 скопировать любые 2 файла, которые вы создали, в любую другую папку - cp foldername_1/{file.json,file_2.json} foldername_1/dir_1
+15. Найти файл по имени - find . -name test.txt
 16. просмотреть содержимое в реальном времени (команда grep) изучите как она работает - grep test text3.txt
 tail -f txt3.txt
 17. вывести несколько первых строк из текстового файла - head -2 text_3.txt
@@ -29,7 +26,7 @@ ______________________________________________________________________
 1. Отправить http запрос на сервер.
 http://162.55.220.72:5005/object_info_3?name=Vadim&age=32&salary=1000
 
-curl http://162.55.220.72:5005/object_info_3?name=Vadim&age=32&salary=1000
+curl "http://162.55.220.72:5005/object_info_3?name=Vadim&age=32&salary=1000"
 
 2. Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
 
