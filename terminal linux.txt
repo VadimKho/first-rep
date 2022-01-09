@@ -46,4 +46,4 @@ mv file.txt cat2/file.txt
 mv test_2.json cat2/test_2.json
 echo done!
 сохранить
-запустить скрипт ./myscript.sh
+запустить скрипт: ./myscript.sh
